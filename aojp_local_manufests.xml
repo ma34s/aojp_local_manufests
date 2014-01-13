@@ -1,4 +1,12 @@
 <manifest>
+<!-- ========================================================================================
+ AOJP 
+======================================================================================== -->
+<project name="aojp/android_vendor_aojp" path="vendor/aojp" remote="private"/>
+
+<!-- ========================================================================================
+
+======================================================================================== -->
 <!--  samsung common  -->
 
 <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode"/>
@@ -87,9 +95,15 @@
 <!--
 <project name="kbc-developers/android_device_samsung_quincytabdcm" path="device/samsung/quincytabdcm" remote="github" revision="cm-10.1" />
 -->
-<!--  sc01f  -->
-<project name="kbc-developers/android_kernel_samsung_hlte" path="kernel/samsung/hlte" remote="private"/>
-<project name="kbc-developers/android_device_samsung_hltedcm" path="device/samsung/hltedcm" remote="private"/>
+
+<!-- ========================================================================================
+ hlte
+======================================================================================== -->
+<!--  common  -->
 <project name="kbc-developers/android_device_samsung_hlte-common" path="device/samsung/hlte-common" remote="private"/>
+<project name="kbc-developers/android_kernel_samsung_hlte" path="kernel/samsung/hlte" remote="private"/>
+
+<!--  sc01f  -->
+<project name="kbc-developers/android_device_samsung_hltedcm" path="device/samsung/hltedcm" remote="private"/>
 
 </manifest>
