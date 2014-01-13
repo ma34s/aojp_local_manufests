@@ -105,5 +105,6 @@
 
 <!--  sc01f  -->
 <project name="kbc-developers/android_device_samsung_hltedcm" path="device/samsung/hltedcm" remote="private"/>
-
+<!--  SCL22  -->
+<project name="kbc-developers/android_device_samsung_hltekdi" path="device/samsung/hltekdi" remote="private"/>
 </manifest>
