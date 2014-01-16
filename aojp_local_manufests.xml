@@ -1,10 +1,5 @@
 <manifest>
 <!-- ========================================================================================
- AOJP 
-======================================================================================== -->
-<project name="aojp/android_vendor_aojp" path="vendor/aojp" remote="private"/>
-
-<!-- ========================================================================================
 
 ======================================================================================== -->
 <!--  samsung common  -->
@@ -15,9 +10,7 @@
 <project name="kbc-developers/android_cwm_recovery" path="bootable/recovery" remote="private"/>
 
 <project name="kbc-developers/proprietary_vendor_samsung" path="vendor/samsung" remote="private"/>
-<!--  aojp  -->
-<remove-project path="frameworks/base" name="CyanogenMod/android_frameworks_base"/>
-<project path="frameworks/base" name="aojp/android_frameworks_base" remote="private"/>
+
 <!--
 <remove-project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony"/>
 <project path="frameworks/opt/telephony" name="aojp/android_frameworks_opt_telephony" remote="private"/>
@@ -33,10 +26,6 @@
 <project path="system/core" name="aojp/android_system_core" remote="private"/>
 -->
 
-<remove-project path="vendor/cm" name="CyanogenMod/android_vendor_cm"/>
-<project path="vendor/cm" name="aojp/android_vendor_cm" remote="private"/>
-
-
 <!--  msm common  -->
 
 <project name="kbc-developers/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="private"/>
@@ -47,7 +36,7 @@
 
 <!--
 <project name="kbc-developers/android_kernel_samsung_msm8660" path="kernel/samsung/msm8660-dcm" remote="private" revision="android-jb-mr1-v7"/>
-<project name="kbc-developers/android_kernel_samsung_d2dcm" path="kernel/samsung/d2dcm" remote="private" revision="kbc-aosp-jb-mr1"/>
+<project name="kbc-developers/android_kernel_samsung_d2dcm" path="kernel/samsung/d2dcm" remote="private"/>
 -->
 <!--  exynos common  -->
 <project name="kbc-developers/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="private"/>
@@ -68,10 +57,11 @@
 <project name="kbc-developers/android_kernel_samsung_jfdcm" path="kernel/samsung/jfdcm" remote="private" revision="kbc-aosp-kk"/>
 
 <!--  sc06d  -->
-<!--
+<!-- 
 <project name="kbc-developers/android_device_samsung_d2-common" path="device/samsung/d2-common" remote="private"/>
 <project name="kbc-developers/android_device_samsung_d2dcm" path="device/samsung/d2dcm" remote="private"/>
--->
+ -->
+
 <!--  sc03d  -->
 <!--
 <project name="kbc-developers/android_device_samsung_celox-common" path="device/samsung/celox-common" remote="private"/>
